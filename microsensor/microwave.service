@@ -1,0 +1,8 @@
+[Unit]
+Description=WCL microwaveSensor
+[Service]
+ExecStart=/usr/bin/node /root/WCL/microsensor/micro.js
+Restart=always
+Type=simple
+[Install]
+WantedBy=multi-user.target

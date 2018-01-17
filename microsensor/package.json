@@ -1,0 +1,24 @@
+{
+  "name": "microsensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "micro.js",
+  "scripts": {
+    "start": "node micro",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer-split": "^1.0.0",
+    "cron": "^1.2.1",
+    "fluent-logger": "^2.4.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.14",
+    "mongoose": "^4.13.9",
+    "mqtt": "^2.15.1",
+    "serialport": "^5.0.0"
+  }
+}
